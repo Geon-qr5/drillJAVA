@@ -14,6 +14,8 @@ public class Application {
         System.out.println("============================");
         ex.ex05();
         System.out.println("============================");
+        ex.ex06();
+        System.out.println("============================");
     }
 
 }
