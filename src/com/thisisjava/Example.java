@@ -89,4 +89,49 @@ public class Example {
         System.out.print("자바를\n");
         System.out.print("배웁니다.\n");
     }
+
+    public void ex08(){
+        String str1 = "" + "{\n" + "\t\"id\":\"winter\",\n" + "\t\"name\":\"눈송이\",\n"
+        + "}";
+        String str2 = """
+        {
+        "id":"winter"
+        "name":"눈송이"
+        }
+        """;
+        
+        System.out.println(str1);
+        System.out.println("----------------------------");
+        System.out.println(str2);
+        System.out.println("----------------------------");
+        
+        String str = """
+        나는 자바를 \
+        학습합니다.
+        나는 자바 고수가 될 겁니다.
+        """;
+        System.out.println(str);
+    }
+
+    public void ex09(){
+        byte byteValue = 10;
+        int intValue = byteValue;
+        System.out.println("intValue : " + intValue);
+
+        char charValue = '가';
+        intValue = charValue;
+        System.out.println("가의 유니코드 : " + intValue);
+
+        intValue = 50;
+        long longValue = intValue;
+        System.out.println("longValue : " + longValue);
+
+        longValue = 100;
+        float floatValue = longValue;
+        System.out.println("floatValue : " + floatValue);
+
+        floatValue = 100.5f;
+        double doubleValue = floatValue;
+        System.out.println("doubleValue : " + doubleValue);
+    }
 }

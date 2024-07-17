@@ -18,6 +18,10 @@ public class Application {
         System.out.println("============================");
         ex.ex07();
         System.out.println("============================");
+        ex.ex08();
+        System.out.println("============================");
+        ex.ex09();
+        System.out.println("============================");
     }
 
 }
