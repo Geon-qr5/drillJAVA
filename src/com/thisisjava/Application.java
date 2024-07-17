@@ -22,6 +22,14 @@ public class Application {
         System.out.println("============================");
         ex.ex09();
         System.out.println("============================");
+        ex.ex10();
+        System.out.println("============================");
+        ex.ex11();
+        System.out.println("============================");
+        ex.ex12();
+        System.out.println("============================");
+        ex.ex13();
+        System.out.println("============================");
     }
 
 }
