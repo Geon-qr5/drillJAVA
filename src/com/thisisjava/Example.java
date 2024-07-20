@@ -1,5 +1,7 @@
 package com.thisisjava;
 
+import java.util.Scanner;
+
 public class Example {
     public void ex01() {
         int hour = 3;
@@ -156,7 +158,7 @@ public class Example {
     public void ex11() {
         byte result1 = 10 + 20;
         System.out.println("result1 : " + result1);
-        
+
         byte v1 = 10;
         byte v2 = 20;
         int result2 = v1 + v2;
@@ -188,26 +190,25 @@ public class Example {
         System.out.println("result7 : " + result7);
     }
 
-    public void ex12(){
+    public void ex12() {
         int result1 = 10 + 2 + 8;
         System.out.println("result1 : " + result1);
 
         String result2 = 10 + 2 + "8";
         System.out.println("result2 : " + result2);
-        
-        
+
         String result3 = 10 + "2" + 8;
         System.out.println("result3 : " + result3);
-        
+
         String result4 = "10" + 2 + 8;
         System.out.println("result4 : " + result4);
-        
-        String result5 = "10" + ( 2 + 8 );
+
+        String result5 = "10" + (2 + 8);
         System.out.println("result5 : " + result5);
     }
 
-    public void ex13(){
-        int value1  = Integer.parseInt("10");
+    public void ex13() {
+        int value1 = Integer.parseInt("10");
         double value2 = Double.parseDouble("3.14");
         boolean value3 = Boolean.parseBoolean("true");
 
@@ -222,6 +223,46 @@ public class Example {
         System.out.println("str1 : " + str1);
         System.out.println("str2 : " + str2);
         System.out.println("str3 : " + str3);
+
+    }
+
+    public void ex14() {
+        int value = 123;
+        System.out.printf("상품의 가격 : %d원\n", value);
+        System.out.printf("상품의 가격 : %6d원\n", value);
+        System.out.printf("상품의 가격 : %-6d원\n", value);
+        System.out.printf("상품의 가격 : %06d원\n", value);
+
+        double area = 3.14159 * 10 * 10;
+        System.out.printf("반지름이 %d인 원의 넓이 %10.2f\n", 10, area);
+
+        String name = "홍길동";
+        String job = "도적";
+        System.out.printf("%6d | %-10s | %10s\n", 1, name, job);
+    }
+
+    Scanner scan = new Scanner(System.in);
+
+    public void ex15() {
+        System.out.print("x 값 입력 : ");
+        int x = Integer.parseInt(scan.nextLine());
+
+        System.out.print("y 값 입력 : ");
+        int y = Integer.parseInt(scan.nextLine());
+
+        int result = x + y;
+        System.out.println("x + y : " + result);
+        System.out.println();
+
+        while (true) {
+            System.out.print("입력 문자열 : ");
+            String data = scan.nextLine();
+            if (data.equals("q")) {
+                break;
+            }
+            System.out.println("출력 문자열 : " + data);
+            System.out.println();
+        }
 
     }
 }
