@@ -2,7 +2,8 @@ package com.thisisjava;
 
 public class Application {
     public static void main(String[] args) {
-        Example ex = new Example();
+        // Example ex = new Example();
+        Example1 ex1 = new Example1();
         // System.out.println("============================");
         // ex.ex01();
         // System.out.println("============================");
@@ -23,16 +24,26 @@ public class Application {
         // ex.ex09();
         // System.out.println("============================");
         // ex.ex10();
-        System.out.println("============================");
-        ex.ex11();
-        System.out.println("============================");
-        ex.ex12();
-        System.out.println("============================");
-        ex.ex13();
-        System.out.println("============================");
-        ex.ex14();
-        System.out.println("============================");
-        ex.ex15();
+        // System.out.println("============================");
+        // ex.ex11();
+        // System.out.println("============================");
+        // ex.ex12();
+        // System.out.println("============================");
+        // ex.ex13();
+        // System.out.println("============================");
+        // ex.ex14();
+        // System.out.println("============================");
+        // ex.ex15();
+        // System.out.println("============================");
+        // ex1.ex01();
+        // System.out.println("============================");
+        // ex1.ex02();
+        // System.out.println("============================");
+        // ex1.ex03();
+        // System.out.println("============================");
+        // ex1.ex04();
+        // System.out.println("============================");
+        ex1.ex05();
         System.out.println("============================");
     }
 
