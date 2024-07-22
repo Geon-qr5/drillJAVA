@@ -2,7 +2,7 @@ package com.thisisjava;
 
 public class Application {
     public static void main(String[] args) {
-        Example ex = new Example();
+        // Example ex = new Example();
         // Example1 ex1 = new Example1();
         
         // System.out.println("============================");
